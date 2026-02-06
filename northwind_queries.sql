@@ -7,7 +7,7 @@
 SELECT *
 FROM products
 WHERE unit_price > 20;
---This query shows 37 products that have a unit price greater than $20. 
+--This query shows 37 products that have unit price greater than $20. 
 
 -- Question 2 — JOIN Two Tables
 -- Display the Order ID, Customer Company Name, and Order Date
@@ -18,6 +18,4 @@ o.order_date
 FROM orders o
 INNER JOIN customers c
 ON o.customer_id = c.customer_id;
-
-
 
